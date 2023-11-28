@@ -1,8 +1,7 @@
-import { AntDesign, Entypo, FontAwesome, MaterialCommunityIcons,  FontAwesome5, Octicons, Ionicons, MaterialIcons } from '@expo/vector-icons';
+import { FontAwesome, MaterialCommunityIcons,  FontAwesome5, Octicons, Ionicons, MaterialIcons } from '@expo/vector-icons';
 import HomeScreen from './Screens/HomeScreen';
 import ProfileScreen from './Screens/ProfileScreen';
 import StatusScreen from './Screens/StatusScreen';
-// import LoginScreen from './Screens/LoginScreen';
 import MediaScreen from './Screens/MediaScreen';
 import SearchScreen from './Screens/SearchScreen';
 

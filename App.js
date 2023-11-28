@@ -1,9 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import { Text, View } from 'react-native';
-import tw from 'twrnc';
+import { SafeAreaView, } from 'react-native';
 import MyStack from './Navigation';
 
 export default function App() {
-  return <MyStack /> ;
-}
+  return ( 
+	  <SafeAreaView style={{
+    flex: 1,
+    justifyContent: 'center',
+  }}>
+     
+		<MyStack />
+
+		</ SafeAreaView>
+  )}
 
