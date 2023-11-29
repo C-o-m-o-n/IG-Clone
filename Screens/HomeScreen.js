@@ -12,7 +12,7 @@ import PostItem from '../Components/PostItem';
 
 export default function HomeScreen () {
   return (
-	  <SafeAreaView style={tw`flex-1 bg-[#fff0d0]`}>
+	  <ScrollView style={tw`flex-1 bg-[#fff0d0]`}>
     <View style={tw`felx android:pt-2 dark:bg-black`}>
 	  <View style={tw`flex flex-row justify-between mx-3 my-3`}>
       <Text style={tw`text-2xl text-black dark:text-white`}>Instagram</Text>
@@ -40,7 +40,10 @@ export default function HomeScreen () {
 
 <PostItem imageSource={girl5}/>
 
+<PostItem imageSource={girl2}/>
+<PostItem imageSource={man1}/>
+<PostItem imageSource={girl3}/>
 	  </View>
-	  </SafeAreaView>
+	  </ScrollView>
   );
 }

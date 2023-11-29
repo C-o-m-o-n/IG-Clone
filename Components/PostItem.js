@@ -39,10 +39,11 @@ export default function PostItem({imageSource,}){
 <MaterialCommunityIcons name="bookmark-minus-outline" size={24} color="black" />
 
 		</View>
-<View>
+<View style={tw `flex-col m-4`}>
+		<View style={tw `flex-row `}>
 		<Text>wrejw.eriojjer.ieghie</Text>
 		<AntDesign style={tw `mx-2`} name="checkcircle" size={13} color="blue" />
-
+</View>
 		<Text>We have a very strong team, and I believe we can work on a solution if we put our minds and effort to it</Text>
 		</View>
 		</View>
